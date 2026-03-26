@@ -5,7 +5,7 @@ Az első félévünk főként a szakma megismeréséről, egyszerű weblapszerke
 
 **Projektek**:
 - Programozási Alapok (HTML weblap készítése template segítségével)
-- Digitális Kultúra (Csapatban egy prezentáció készítése az ókori görög csatákról. Csapattársam itt Veizer Ádám volt.)
+- Digitális Kultúra (Csapatban egy prezentáció készítése az ókori görög csatákról. Csapattársam itt Veizer Ádám volt)
 - IKT Projekt (Összefoglaló prezentáció)
 
 **Félévi összegzés**: A projektjeink az akkori kezdetleges tudásszintünkhöz voltak igazítva, semmi különösen nehéz feladatot nem kaptunk. Látszik hogy a projektjeink még közel nem tökéletesek, igaz, még csak most kezdtük.
@@ -24,37 +24,40 @@ Ebben a félévben a páros csapatmunkáé volt a főszerep. Csapattársam Berko
 # 10. évfolyam
 
 ## 1. Félév
-Szakmai tárgyaink bővültek az Informatikai és Távközlési Alapismeretekkel, rövden csak Hálózat. Egyre bonyolultabb szakmai elemeket fedeztünk fel minden tantárgyban, kihívás volt bőven.  A fizika mint tantárgy szintén ebben a félévben jött be a képbe.
+Szakmai tárgyaink bővültek az Informatikai és Távközlési Alapismeretekkel, rövden csak ITA I. Egyre bonyolultabb szakmai elemeket fedeztünk fel minden tantárgyban. A fizika tantárgy szintén ebben a félévben jött be az órarendünkbe. Csapattársaim a félévben Kovács Erik és Kormos Levente voltak.
 
 **Projektek**:
-- Fizika (Excel programozás)
-- ITA I. (Egyszerú Cisco PT hálózat)
-- Programozási alapok (Template alapú statikus HTML weblap)
-- IKT Projekt (Összefoglaló PPT)
+- Programozási alapok (HTML Weblap készítése minimális template felhasználásával)
+- Programozási alapok (Python játék készítése)
+- ITA I. (Egyszerú Cisco Packet Tracer hálózat megtervezése és elkészítése)
+- Fizika
+- IKT Projekt (Összefoglaló prezentáció készítése)
 
-**Félévi összegzés**: A hálózati tantárgy kezdetben elég nehéznek bizonyult a számomra, de a félév vége felé kifejezetten jól megértettem.
+**Félévi összegzés**: A hálózati tantárgy kezdetben elég nehéznek bizonyult a számomra, de a félév vége felé kifejezetten jól megértettem, és csapatban minden feladatot sikeresen megoldottunk.
 
 ## 2. Félév
-Eljött az a félév, ahol nem volt rendes tantárgyi projekt, hanem csak szakmai tárgyakból voltak feladataink. Itt már Márk volt a csapattársam.
+A második félévben már közismereti tárgyból nem kaptunk projektfeladatot, a szakmai tárgyak kerültek teljesen előtérbe. A csapatmunka szintén fenn áll, ettől a félévtől kezdve Hernádi Bencével dolgoztam.
 
 **Projektek**:
-- Fizika (excel program)
-- IKT Projekt (Összefoglaló PPT)
-- ITA I. (Cisco PT hálózat elkészítése)
-- Programozási alapok (Weblap, illetve játék)
+- Programozási alapok (HTML Weblap készítése már template nélkül, magunktól)
+- Programozási alapok (Python játék)
+- ITA I. (Cisco Packet Tracer hálózat megtervezése és elkészítése)
+- ITA I. (A hálózatunkhoz IP cím tábla készítése)
+- Fizika (Egy ágyúgolyó ballisztikus pályájának kiszámítása)
+- IKT Projekt (Összefoglaló prezentáció készítése)
 
-**Félévi összegzés**: Ez volt az első élvezetes félévi projektem, minden feladatot könnyedén megoldottuk, sehol nem akadtunk el. Ekkor kezdtük el használni Prezit mint prezentáció készítő és bemutató.
+**Félévi összegzés**: Ezen félévi projektünket mondanám az első igazán sikeres projektnek. Tökéletes volt a csapatmunka, az együtt dolgozás, minden hibát közösen tudtunk orvosolni. Minden projektet sikeresen elvégeztünk. Ezeket már sokkal sikeresebbeknek érzem mint az előző 3 félév tartalmát.
 
 ---
 # 11. évfolyam
 
 ## 1. Félév
-Nem sokkal másabb mint az előző tanév 2. Félévi feladatai. Viszont lett egy új tantárgyunk ami az Adatbázis kezelés volt. Ismét csapatmunka Márkkal
+A feladatok hasonlóak voltak, mint az előző tanévben. Bővültünk az Adatbázis-kezelés tantárggyal. Az ITA tantárgyunk Hálózatokká alakult (az anyag ugyanaz, csak a név más)
 
 **Projektek**:
-- Hálózatok (I. világháború hálózat és ahhoz tartozó feladatok)
-- Adatbázis kezelés (PHP alapú weboldal MySQL adatbázis kapcsolattal)
-- IKT Projekt (Összefoglaló PPT)
+- Adatbázis kezelés (PHP alapú weboldal készítése adatbázisból kiolvasással, kapcsolatokkal)
+- Hálózatok (I. világháború hálózat megtervezése és elkészítése)
+- IKT Projekt (Összefoglaló prezentáció készítése)
 
 **Félévi összegzés**: Elkezdtük prezentációk normális elkészítését és azoknak az előadását, illetve a normális csapatmunkát.
 
@@ -64,7 +67,7 @@ A kevés feladatok miatt, sokat tudtunk dolgozni a projekteken, így szerintem e
 **Projektek**:
 - Hálózatok (II. világháború hálózat  és ahhoz tartozó feladatok)
 - Adatbázis kezelés (Költői adatbázis PHP és MySQL felhasználásával)
-- IKT Projekt (Összefoglaló PPT)
+- IKT Projekt (Összefoglaló prezentáció készítése)
 
 **Félévi összegzés**: Ez volt az első élvezetes félévi projektem, minden feladatot könnyedén megoldottuk, sehol nem akadtunk el. Ekkor kezdtük el használni a Prezit mint prezentáció készítő és bemutató.
 
