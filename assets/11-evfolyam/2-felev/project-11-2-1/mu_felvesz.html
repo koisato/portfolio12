@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Uj mu felvetele</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="data.inline.js"></script>
+  <script src="static-app.js" defer></script>
+</head>
+<body data-page="add-work">
+  <div id="navbar-root"></div>
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>Uj mu felvetele</h1>
+    <p>Itt lehet muvet felvenni.</p>
+  </div>
+
+  <div class="container mt-5" id="app-error">
+    <h2>Uj mu felvetele</h2>
+    <div id="messages"></div>
+    <form id="workForm" novalidate>
+      <div class="mb-3">
+        <label for="mu_nev" class="form-label">Mu cime</label>
+        <input type="text" class="form-control" id="mu_nev">
+      </div>
+      <div class="mb-3">
+        <label for="mu_szerzo_id" class="form-label">Szerzo</label>
+        <select class="form-select" id="mu_szerzo_id"></select>
+      </div>
+      <div class="mb-3">
+        <label for="mu_kel_ido" class="form-label">Kiadas eve</label>
+        <input type="text" class="form-control" id="mu_kel_ido">
+      </div>
+      <div class="mb-3">
+        <label for="mu_mufaj" class="form-label">Mufaj</label>
+        <select class="form-select" id="mu_mufaj"></select>
+      </div>
+      <div class="mb-3">
+        <label for="mu_reszlet" class="form-label">Reszlet</label>
+        <textarea class="form-control" id="mu_reszlet" rows="4"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="mu_teljes" class="form-label">Teljes mu</label>
+        <textarea class="form-control" id="mu_teljes" rows="8"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Uj mu felvetele</button>
+    </form>
+  </div>
+</body>
+</html>
+
