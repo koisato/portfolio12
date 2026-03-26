@@ -6,31 +6,33 @@ Az első félévünk főként a szakma megismeréséről, egyszerű weblapszerke
 **Projektek**:
 - Programozási Alapok (HTML weblap készítése template segítségével)
 - Digitális Kultúra (Csapatban egy prezentáció készítése az ókori görög csatákról. Csapattársam itt Veizer Ádám volt.)
-- IKT Projekt (Összefoglaló PPT)
+- IKT Projekt (Összefoglaló prezentáció)
 
-**Félévi összegzés**: Ezek a projektek még csak a jéghegy csúcsán voltak, nem kellett semmi olyan nehéz dolgot elkészíteni.
+**Félévi összegzés**: A projektjeink az akkori kezdetleges tudásszintünkhöz voltak igazítva, semmi különösen nehéz feladatot nem kaptunk. Látszik hogy a projektjeink még közel nem tökéletesek, igaz, még csak most kezdtük.
 
 ## 2. Félév
-Párban kellett dolgozni, ezzel is kitanulva a csapatmunka lényegét. Csapattársam ebben a félévben Martin volt.
+Ebben a félévben a páros csapatmunkáé volt a főszerep. Csapattársam Berkovics Levi volt, bár a csapaton belüli zavargások miatt különváltunk, és egyedül fejeztük be projektjeinket.
 
 **Projektek**:
+- Programozási Alapok (HTML Weblap készítése template segítségével)
+- IKT Projekt (Időterv készítése)
+- IKT Projekt (Összefoglaló prezentáció)
 
-**Félévi összegzés**:Sajnos a második féléves projektjeim ebből a tanévből elvesztek. Csapat munkában sokkal könnyebb és élvezhetőbb volt a projektek elkészítése. Nem kellett annyi tárgyból projektet csinálni mint az előző félévben.
+**Félévi összegzés**: A félévben jobban belemerültünk a HTML és CSS világába. Új -akkor még extrának számító- funkciókat is beépítettem a weboldalba, többek közt a hamburger menüt, illetve jobban figyeltem a reszponzivitásra, valamint a CSS-be is több időt fektettem. A projekteket különösebb nehézségek nélkül tudtam teljesíteni.
 
 ---
 # 10. évfolyam
 
 ## 1. Félév
-Itt kezdődött el igazán a szakmai tárgyak tanulása. Ekkor lett Hálózatunk (ITA), ami végre egy kihívást is nyújtott az akkori félévben. Megint csak csapatban dolgoztunk, és Zalánnal voltam egy csapatban.
+Szakmai tárgyaink bővültek az Informatikai és Távközlési Alapismeretekkel, rövden csak Hálózat. Egyre bonyolultabb szakmai elemeket fedeztünk fel minden tantárgyban, kihívás volt bőven.  A fizika mint tantárgy szintén ebben a félévben jött be a képbe.
 
 **Projektek**:
 - Fizika (Excel programozás)
 - ITA I. (Egyszerú Cisco PT hálózat)
 - Programozási alapok (Template alapú statikus HTML weblap)
 - IKT Projekt (Összefoglaló PPT)
-- IKT Projekt (Összefoglaló PPT)
 
-**Félévi összegzés**: Csapatmunka finomítására tökéletes volt ez a félév. Az egyetlen tantárgy ami ebben a félévben bármilyen kihivás lett volna, az az ITA volt
+**Félévi összegzés**: A hálózati tantárgy kezdetben elég nehéznek bizonyult a számomra, de a félév vége felé kifejezetten jól megértettem.
 
 ## 2. Félév
 Eljött az a félév, ahol nem volt rendes tantárgyi projekt, hanem csak szakmai tárgyakból voltak feladataink. Itt már Márk volt a csapattársam.
