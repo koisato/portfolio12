@@ -1,11 +1,11 @@
 # 9. Évfolyam
 
 ## 1. Félév
-Itt vezettem be magam igazán a HTML-be és a különféle tantárgyakba amit ez a szakma ajánl.
+Az első félévünk főként a szakma megismeréséről, egyszerű weblapszerkesztésről, és a HTML-CSS tanulásáról szólt. Itt csöppentünk bele a szakma lehetőségeibe.
 
 **Projektek**:
-- Digitális kultúra (Első közös projekt)
-- Programozási Alapok (Template alapú statikus HTML weblap)
+- Programozási Alapok (HTML weblap készítése template segítségével)
+- Digitális Kultúra (Csapatban egy prezentáció készítése az ókori görög csatákról. Csapattársam itt Veizer Ádám volt.)
 - IKT Projekt (Összefoglaló PPT)
 
 **Félévi összegzés**: Ezek a projektek még csak a jéghegy csúcsán voltak, nem kellett semmi olyan nehéz dolgot elkészíteni.
@@ -27,6 +27,7 @@ Itt kezdődött el igazán a szakmai tárgyak tanulása. Ekkor lett Hálózatunk
 - Fizika (Excel programozás)
 - ITA I. (Egyszerú Cisco PT hálózat)
 - Programozási alapok (Template alapú statikus HTML weblap)
+- IKT Projekt (Összefoglaló PPT)
 - IKT Projekt (Összefoglaló PPT)
 
 **Félévi összegzés**: Csapatmunka finomítására tökéletes volt ez a félév. Az egyetlen tantárgy ami ebben a félévben bármilyen kihivás lett volna, az az ITA volt
