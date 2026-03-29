@@ -20,6 +20,7 @@ Ebben a félévben a páros csapatmunkáé volt a főszerep. Csapattársam Berko
 
 **Félévi összegzés**: A félévben jobban belemerültünk a HTML és CSS világába. Új -akkor még extrának számító- funkciókat is beépítettem a weboldalba, többek közt a hamburger menüt, illetve jobban figyeltem a reszponzivitásra, valamint a CSS-be is több időt fektettem. A projekteket különösebb nehézségek nélkül tudtam teljesíteni.
 
+
 ---
 # 10. évfolyam
 
@@ -93,3 +94,5 @@ Az érettségire való tekintettel csak egy projektet kaptunk, az elmúlt 4 év 
 
 **Projektek**:
 - A jelenlegi előadás
+
+**Félévi összegzés**: A portfólió szerintem egész jól sikerült, érdekes volt visszanézni az elmúlt évek munkáját, viszont nagyon jó volt látni a fejlődést az évek során

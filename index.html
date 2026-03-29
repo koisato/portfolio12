@@ -36,11 +36,45 @@
       min-height: 100%;
       overflow: hidden;
       background:
-        radial-gradient(circle at 12% 18%, rgba(54, 182, 255, 0.12), transparent 22%),
-        radial-gradient(circle at 88% 20%, rgba(138, 216, 255, 0.08), transparent 20%),
-        linear-gradient(160deg, var(--bg-deep) 0%, var(--bg) 45%, var(--bg-warm) 100%);
+        radial-gradient(120% 95% at 100% 0%, rgba(45, 99, 165, 0.82) 0%, rgba(26, 73, 128, 0.62) 45%, rgba(10, 34, 70, 0) 75%),
+        radial-gradient(105% 92% at 90% 104%, rgba(31, 146, 126, 0.82) 0%, rgba(18, 103, 98, 0.58) 44%, rgba(5, 27, 56, 0) 78%),
+        linear-gradient(90deg, rgba(2, 10, 28, 0.98) 0%, rgba(2, 10, 28, 0.98) 22%, rgba(1, 13, 36, 0.99) 34%, rgba(3, 22, 55, 0.7) 46%, rgba(7, 34, 74, 0.35) 56%, rgba(8, 42, 84, 0.18) 66%, rgba(8, 42, 84, 0.08) 100%),
+        linear-gradient(160deg, #010816 0%, #031432 42%, #0a2e56 72%, #0c4a66 100%);
+      background-size: 120% 120%, 128% 128%, 100% 100%, 100% 100%;
+      background-position: 100% 0%, 90% 104%, 0% 0%, 0% 0%;
+      animation: backgroundFlow 9s linear infinite;
       color: var(--text);
       font-family: "IBM Plex Sans", sans-serif;
+    }
+
+    @keyframes backgroundFlow {
+      0% {
+        background-position: 98% 2%, 88% 106%, 0% 0%, 0% 0%;
+      }
+
+      16% {
+        background-position: 92% 9%, 96% 96%, 0% 0%, 0% 0%;
+      }
+
+      33% {
+        background-position: 99% 14%, 82% 100%, 0% 0%, 0% 0%;
+      }
+
+      50% {
+        background-position: 90% 4%, 94% 110%, 0% 0%, 0% 0%;
+      }
+
+      66% {
+        background-position: 96% 12%, 86% 94%, 0% 0%, 0% 0%;
+      }
+
+      83% {
+        background-position: 91% 6%, 98% 104%, 0% 0%, 0% 0%;
+      }
+
+      100% {
+        background-position: 94% 6%, 98% 96%, 0% 0%, 0% 0%;
+      }
     }
 
     body {
@@ -55,7 +89,7 @@
       height: 100%;
       z-index: 0;
       pointer-events: none;
-      opacity: 0.14;
+      opacity: 0;
     }
 
     .reveal {
@@ -144,6 +178,12 @@
 
     .closing-title {
       max-width: none;
+    }
+
+    .acknowledgement-title {
+      max-width: 24ch;
+      font-size: clamp(1.9rem, 3.8vw, 3.2rem);
+      line-height: 1.12;
     }
 
     .semester-title {
@@ -925,6 +965,25 @@
       `;
     }
 
+    function renderAcknowledgementSlide() {
+      return `
+        <section>
+          <div class="slide center-slide">
+            <div class="content">
+              <p style="font-size: 2.64em; margin-top: 2em; line-height: 1.6;">
+                Köszönöm <strong>Norbinak</strong> a prezentáció template elkészítését!
+              </p>
+              <p style="margin-top: 1.5em; font-size: 1.68em;">
+                <a href="https://github.com/nrbrtuwu/" target="_blank" style="color: inherit; text-decoration: underline;">
+                  github.com/nrbrtuwu/
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
     function renderSubjectSlide(yearTitle, semesterTitle, project, projectIndex, projectCount, projectAsset) {
       const theme = previewTheme(project);
       const navItems = theme.nav.map((item) => `<span>${escapeHtml(item)}</span>`).join("");
@@ -1014,6 +1073,7 @@
         sections.push(`<section>${verticalSlides.join("")}</section>`);
       }
 
+      sections.push(renderAcknowledgementSlide());
       sections.push(renderClosingSlide());
 
       slidesRoot.insertAdjacentHTML("beforeend", sections.join(""));
@@ -1070,9 +1130,6 @@
       });
     }
 
-    resizeMatrix();
-    window.addEventListener("resize", resizeMatrix);
-    window.requestAnimationFrame(drawMatrix);
     initPresentation();
   </script>
 </body>
