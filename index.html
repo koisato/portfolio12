@@ -35,51 +35,68 @@
       height: 100%;
       min-height: 100%;
       overflow: hidden;
-      background:
-        radial-gradient(120% 95% at 100% 0%, rgba(45, 99, 165, 0.82) 0%, rgba(26, 73, 128, 0.62) 45%, rgba(10, 34, 70, 0) 75%),
-        radial-gradient(105% 92% at 90% 104%, rgba(31, 146, 126, 0.82) 0%, rgba(18, 103, 98, 0.58) 44%, rgba(5, 27, 56, 0) 78%),
-        linear-gradient(90deg, rgba(2, 10, 28, 0.98) 0%, rgba(2, 10, 28, 0.98) 22%, rgba(1, 13, 36, 0.99) 34%, rgba(3, 22, 55, 0.7) 46%, rgba(7, 34, 74, 0.35) 56%, rgba(8, 42, 84, 0.18) 66%, rgba(8, 42, 84, 0.08) 100%),
-        linear-gradient(160deg, #010816 0%, #031432 42%, #0a2e56 72%, #0c4a66 100%);
-      background-size: 120% 120%, 128% 128%, 100% 100%, 100% 100%;
-      background-position: 100% 0%, 90% 104%, 0% 0%, 0% 0%;
-      animation: backgroundFlow 9s linear infinite;
+      background: linear-gradient(160deg, #010816 0%, #031432 42%, #0a2e56 72%, #0c4a66 100%);
       color: var(--text);
       font-family: "IBM Plex Sans", sans-serif;
     }
 
-    @keyframes backgroundFlow {
+    @keyframes backgroundDrift {
       0% {
-        background-position: 98% 2%, 88% 106%, 0% 0%, 0% 0%;
+        transform: translate3d(0, 0, 0) scale(1.02);
       }
 
-      16% {
-        background-position: 92% 9%, 96% 96%, 0% 0%, 0% 0%;
+      17% {
+        transform: translate3d(-2.2%, 1.5%, 0) scale(1.06);
       }
 
-      33% {
-        background-position: 99% 14%, 82% 100%, 0% 0%, 0% 0%;
+      37% {
+        transform: translate3d(1.6%, -2.8%, 0) scale(1.04);
       }
 
-      50% {
-        background-position: 90% 4%, 94% 110%, 0% 0%, 0% 0%;
+      58% {
+        transform: translate3d(-1.8%, -1.1%, 0) scale(1.08);
       }
 
-      66% {
-        background-position: 96% 12%, 86% 94%, 0% 0%, 0% 0%;
-      }
-
-      83% {
-        background-position: 91% 6%, 98% 104%, 0% 0%, 0% 0%;
+      81% {
+        transform: translate3d(2.4%, 1.9%, 0) scale(1.03);
       }
 
       100% {
-        background-position: 94% 6%, 98% 96%, 0% 0%, 0% 0%;
+        transform: translate3d(0.8%, -1.6%, 0) scale(1.05);
       }
     }
 
     body {
       position: fixed;
       inset: 0;
+      isolation: isolate;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+    }
+
+    body::before {
+      inset: -24%;
+      background:
+        radial-gradient(128% 102% at 100% 0%, rgba(45, 99, 165, 0.84) 0%, rgba(26, 73, 128, 0.66) 45%, rgba(10, 34, 70, 0) 76%),
+        radial-gradient(110% 98% at 88% 100%, rgba(31, 146, 126, 0.82) 0%, rgba(18, 103, 98, 0.58) 46%, rgba(5, 27, 56, 0) 80%),
+        linear-gradient(92deg, rgba(2, 10, 28, 1) 0%, rgba(2, 10, 28, 0.98) 24%, rgba(1, 13, 36, 0.98) 35%, rgba(3, 22, 55, 0.72) 49%, rgba(7, 34, 74, 0.32) 61%, rgba(8, 42, 84, 0.13) 72%, rgba(8, 42, 84, 0.07) 100%);
+      z-index: 0;
+      transform-origin: 58% 46%;
+      animation: backgroundDrift 12s ease-in-out infinite;
+      will-change: transform;
+    }
+
+    body::after {
+      inset: 0;
+      z-index: 0;
+      background:
+        linear-gradient(100deg, rgba(1, 8, 23, 0.86) 0%, rgba(1, 8, 23, 0.84) 20%, rgba(1, 8, 23, 0.65) 36%, rgba(1, 8, 23, 0.3) 54%, rgba(1, 8, 23, 0.12) 66%, rgba(1, 8, 23, 0.08) 100%),
+        radial-gradient(140% 108% at 50% 100%, rgba(0, 0, 0, 0.22) 0%, rgba(0, 0, 0, 0.04) 52%, rgba(0, 0, 0, 0) 80%);
     }
 
     #matrix-bg {
@@ -134,6 +151,47 @@
       justify-content: center;
       padding-top: 6vh;
       padding-bottom: 6vh;
+    }
+
+    .semester-hero-slide {
+      isolation: isolate;
+    }
+
+    .semester-hero-slide .content {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+    }
+
+    .semester-hero-slide .eyebrow {
+      margin-bottom: 14px;
+      color: #7fdbff;
+      font-size: 0.95rem;
+      letter-spacing: 0.24em;
+    }
+
+    .semester-hero-slide .semester-centered-title {
+      font-size: clamp(3.6rem, 7.2vw, 6.3rem);
+      line-height: 0.88;
+      letter-spacing: -0.05em;
+      text-shadow: 0 10px 35px rgba(0, 0, 0, 0.32);
+    }
+
+    .semester-hero-slide .semester-intro {
+      margin-top: 30px;
+      max-width: 31ch;
+      font-size: clamp(1.2rem, 1.85vw, 1.95rem);
+      line-height: 1.58;
+      color: rgba(190, 210, 228, 0.84);
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .semester-hero-slide .semester-meta {
+      margin-top: 26px;
+      color: rgba(147, 170, 190, 0.58);
+      font-size: clamp(0.92rem, 1.15vw, 1.14rem);
+      font-weight: 600;
+      letter-spacing: 0.01em;
     }
 
     .content {
@@ -578,6 +636,15 @@
         gap: 28px;
       }
 
+      .semester-hero-slide .semester-centered-title {
+        font-size: clamp(3.1rem, 9.2vw, 5.2rem);
+      }
+
+      .semester-hero-slide .semester-intro {
+        max-width: 30ch;
+        font-size: clamp(1.08rem, 2.9vw, 1.62rem);
+      }
+
       .subject-slide .content {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -595,6 +662,14 @@
     @media (max-width: 720px) {
       .slide {
         padding: 5vh 6vw 12vh;
+      }
+
+      .semester-hero-slide .semester-centered-title {
+        font-size: clamp(2.75rem, 12vw, 4.3rem);
+      }
+
+      .semester-hero-slide .semester-intro {
+        line-height: 1.52;
       }
 
       .semester-list li {
@@ -927,7 +1002,7 @@
 
       return `
         <section>
-          <div class="slide center-slide">
+          <div class="slide center-slide semester-hero-slide">
             <div class="content">
               <p class="eyebrow">${escapeHtml(yearTitle)}</p>
               <h3 class="semester-title semester-centered-title">${escapeHtml(semester.title)}</h3>
