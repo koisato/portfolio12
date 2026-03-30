@@ -1043,6 +1043,41 @@
       `;
     }
 
+    function renderCompetenceMatrixSlide(yearTitle) {
+      const yearNumber = extractLeadingNumber(yearTitle);
+      const imagePath = `./assets/kompetencia-matrix-${yearNumber}.png`;
+      
+      return `
+        <section>
+          <div class="slide center-slide">
+            <div class="content">
+              <p class="eyebrow">Év végén</p>
+              <h3 class="summary-title" style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 24px;">Kompetenciamátrix és fejlődés ${yearNumber}. osztály</h3>
+              <div style="max-width: 900px; margin: 0 auto;">
+                <img src="${imagePath}" alt="Kompetenciamátrix - ${yearNumber}. osztály" style="width: 100%; height: auto; border-radius: 12px; border: 1px solid rgba(140, 226, 255, 0.3);">
+              </div>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    function renderCompetenceDevelopmentGraphSlide() {
+      return `
+        <section>
+          <div class="slide center-slide">
+            <div class="content">
+              <p class="eyebrow">Teljes portfólió</p>
+              <h3 class="summary-title" style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 24px;">Kompetenciafejlődés 9-12. évfolyam</h3>
+              <div style="max-width: 900px; margin: 0 auto;">
+                <img src="./assets/kompetencia-fejlodes.png" alt="Kompetenciafejlődés 9-12. évfolyam" style="width: 100%; height: auto; border-radius: 12px; border: 1px solid rgba(140, 226, 255, 0.3);">
+              </div>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
     function renderAcknowledgementSlide() {
       return `
         <section>
@@ -1148,7 +1183,15 @@
           verticalSlides.push(renderSemesterSummary(year.title, semester));
         }
 
+        // Az év végén hozzáadunk egy kompetenciamátrix slide-ot
+        verticalSlides.push(renderCompetenceMatrixSlide(year.title));
+
         sections.push(`<section>${verticalSlides.join("")}</section>`);
+      }
+
+      // Ha az utolsó év a 12. évfolyam, hozzáadunk egy fejlődési grafikon slide-ot
+      if (years.length > 0 && years[years.length - 1].title.includes("12")) {
+        sections.push(renderCompetenceDevelopmentGraphSlide());
       }
 
       sections.push(renderAcknowledgementSlide());
