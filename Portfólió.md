@@ -5,8 +5,6 @@ Az első félévünk főként a szakma megismeréséről, egyszerű weblapszerke
 
 **Projektek**:
 - Programozási Alapok (HTML weblap készítése template segítségével)
-- Digitális Kultúra (Csapatban egy prezentáció készítése az ókori görög csatákról. Csapattársam itt Veizer Ádám volt)
-- IKT Projekt (Összefoglaló prezentáció)
 
 **Félévi összegzés**: A projektjeink az akkori kezdetleges tudásszintünkhöz voltak igazítva, semmi különösen nehéz feladatot nem kaptunk. Látszik hogy a projektjeink még közel nem tökéletesek, igaz, még csak most kezdtük.
 
@@ -16,7 +14,6 @@ Ebben a félévben a páros csapatmunkáé volt a főszerep. Csapattársam Berko
 **Projektek**:
 - Programozási Alapok (HTML Weblap készítése template segítségével)
 - IKT Projekt (Időterv készítése)
-- IKT Projekt (Összefoglaló prezentáció)
 
 **Félévi összegzés**: A félévben jobban belemerültünk a HTML és CSS világába. Új -akkor még extrának számító- funkciókat is beépítettem a weboldalba, többek közt a hamburger menüt, illetve jobban figyeltem a reszponzivitásra, valamint a CSS-be is több időt fektettem. A projekteket különösebb nehézségek nélkül tudtam teljesíteni.
 
@@ -31,8 +28,6 @@ Szakmai tárgyaink bővültek az Informatikai és Távközlési Alapismeretekkel
 - Programozási alapok (HTML Weblap készítése minimális template felhasználásával)
 - Programozási alapok (Python játék készítése)
 - ITA I. (Egyszerú Cisco Packet Tracer hálózat megtervezése és elkészítése)
-- Fizika (Feladat megoldása)
-- IKT Projekt (Összefoglaló prezentáció készítése)
 
 **Félévi összegzés**: A hálózati tantárgy kezdetben elég nehéznek bizonyult a számomra, de a félév vége felé kifejezetten jól megértettem, és csapatban minden feladatot sikeresen megoldottunk.
 
@@ -43,9 +38,6 @@ A második félévben már közismereti tárgyból nem kaptunk projektfeladatot,
 - Programozási alapok (HTML Weblap készítése már template nélkül, magunktól)
 - Programozási alapok (Python játék)
 - ITA I. (Cisco Packet Tracer hálózat megtervezése és elkészítése)
-- ITA I. (A hálózatunkhoz IP cím tábla készítése)
-- Fizika (Egy ágyúgolyó ballisztikus pályájának kiszámítása)
-- IKT Projekt (Összefoglaló prezentáció készítése)
 
 **Félévi összegzés**: Ezen félévi projektünket mondanám az első igazán sikeres projektnek. Tökéletes volt a csapatmunka, az együtt dolgozás, minden hibát közösen tudtunk orvosolni. Minden projektet sikeresen elvégeztünk. Ezeket már sokkal sikeresebbeknek érzem mint az előző 3 félév tartalmát.
 
@@ -88,11 +80,3 @@ A félévben 3 tantárgyból kaptunk feladatot. Új tantárgyunk, a Szerver és 
 - IKT (Összefoglaló prezentáció és dokumentáció készítése)
 
 **Félévi összegzés**: A projektjeink KÖZEL tökéletesre sikerültek. Mindig van miben fejlődni, de tanáraink dícsérete nagyon jól esett, megvan a munkánk gyümölcse. A szervert különösen élveztem, de a többi projekt is nagyon élvezetes volt. Egy közel 50 oldalas dokumentációt készítettünk el, és az osztályban a legjobbnak emelték ki.
-
-## 2. Félév
-Az érettségire való tekintettel csak egy projektet kaptunk, az elmúlt 4 év összefoglaló portfólióját.
-
-**Projektek**:
-- A jelenlegi előadás
-
-**Félévi összegzés**: A portfólió szerintem egész jól sikerült, érdekes volt visszanézni az elmúlt évek munkáját, viszont nagyon jó volt látni a fejlődést az évek során
