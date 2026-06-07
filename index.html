@@ -964,8 +964,8 @@
           continue;
         }
 
-        if (line.startsWith("**Félévi összegzés**:")) {
-          currentSemester.summary = line.replace("**Félévi összegzés**:", "").trim();
+        if (line.startsWith("**Félévi összefoglaló**:")) {
+          currentSemester.summary = line.replace("**Félévi összefoglaló**:", "").trim();
           inProjects = false;
           continue;
         }
@@ -1010,7 +1010,7 @@
               <p class="eyebrow">${escapeHtml(yearTitle)}</p>
               <h3 class="semester-title semester-centered-title">${escapeHtml(semester.title)}</h3>
               <p class="semester-intro">${escapeHtml(introText || "Ehhez a félévhez még nem került külön leírás.")}</p>
-              <p class="semester-meta">${semester.projects.length} projektet kaptunk ebben a félévben</p>
+              <p class="semester-meta">${semester.projects.length} projekt ebben a félévben</p>
             </div>
           </div>
         </section>
@@ -1023,8 +1023,8 @@
           <div class="slide center-slide summary-slide">
             <div class="content summary-copy">
               <p class="eyebrow">${escapeHtml(yearTitle)} · ${escapeHtml(semester.title)}</p>
-              <h3 class="summary-title">Félévi összegzés</h3>
-              <p class="summary-text">${escapeHtml(semester.summary || "Ehhez a félévhez még nem került összegzés.")}</p>
+              <h3 class="summary-title">Félévi összefoglaló</h3>
+              <p class="summary-text">${escapeHtml(semester.summary || "Ehhez a félévhez még nem került összefoglaló.")}</p>
             </div>
           </div>
         </section>
